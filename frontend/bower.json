@@ -1,0 +1,21 @@
+{
+  "name": "todo-app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Lucas Gomes <lucasgomes_tl@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
