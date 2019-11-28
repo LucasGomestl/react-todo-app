@@ -2,10 +2,12 @@ import axios from 'axios'
 
 const URL = 'http://localhost:80/api/todo'
 
-export const changeDescription = e => ({
-    type: 'DESCRIPTION_CHANGED',
-    payload: e.target.value
-})
+export const changeDescription = e => {
+    return({
+        type: 'DESCRIPTION_CHANGED',
+        payload: e.target.value
+    })
+}
 
 export const search = () => {
     return (dispatch, getState) => {
